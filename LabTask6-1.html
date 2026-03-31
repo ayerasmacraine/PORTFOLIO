@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 6 Using Display Porperty</title>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .first-form{
+        display: block;
+        padding: 1px;
+    }
+    .box {
+        background-color: #f2f2f2;
+        padding: 15px;
+        width: 500px;
+    }
+
+    .box p {
+        display: inline-block;
+        width: 320px;
+        vertical-align: middle;
+    }
+
+    .box button {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px 10px;
+        margin-left: 5px;
+    }
+    .container {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .logo {
+        width: 200px;
+        margin-bottom: 3px;
+    }
+
+    .search-box {
+        width: 400px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+    }
+    .form{
+        padding: 10px;
+    }
+    h2{
+        margin-bottom: 20px;
+           
+    }
+  
+    .signup-box{
+        background-color: #f5f5f5;
+        padding: 25px;
+        width: 320px;
+        border-radius: 8px;
+    }
+    .signup-now{
+        display: flex;
+        gap: 10px;
+    }
+    .signup-box input{
+        width: 92%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+        font-size: 14px;  
+
+    }
+     .sign-up{
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background: linear-gradient(to right,#3b82f6,#2563eb);
+        color: white;
+        cursor: pointer;
+    }
+
+    .uber-box{
+        background-color: white;
+        padding: 25px;
+        width: 350px;
+        border-radius: 5px;
+    }
+
+    .uber-box h1{
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: 350px;
+        border-radius: 5px ;
+    }
+
+    .uber-box input{
+        width: 100%;
+        padding: 12px;
+        background: #eeee;
+        border: none;
+        margin-bottom: 15px;
+        font-size: 14px;   
+
+    }
+    .uber-buttons{
+        display: flex;
+        gap: 10px ;
+
+    }
+    .request-btn{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        cursor :pointer;
+    }
+    .schedule-btn{
+        background-color: #eeee;
+        border: none;
+        padding: 12px 20px ;
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+
+
+</style>
+<body>
+    <h3>1.</h3>
+    <div class="first-form">
+       <input type="text" size= "15" placeholder="Name">
+        <br>
+       <input type="text" size= "15" placeholder="Email">
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>2.</h3>
+<div class="box">
+<p>Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button>Yes</button>
+    <button>No</button>
+</div>
+
+    <br>
+    <hr>
+    <br>  
+
+<h3>3.</h3>
+  <div class="container">
+    <img src="ImageGoogle.jpg" class="logo" alt="Google Logo">
+    <br>
+    <input type="text" class="search-box" placeholder="Search Google or type a URL">
+  </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>4.</h3>
+<div class="form">
+    <div class="signup-box">
+        <div class="signup-now">
+            <input type="text" size="15" placeholder="First name">
+            <input type="text" size="15" placeholder="Last name">
+        </div >
+         <input type="text" size="15" placeholder="Email">
+         <button class="sign-up">Sign up</button>
+    </div>
+</div>
+
+    <br>
+    <hr>
+    <br>
+
+<h3>5.</h3>
+<div class="uber-box">
+    <h1>Request a ride now</h1>
+       <input type="text" placeholder="Enter my pick up location">
+       <input type="text" placeholder="Enter my destination">
+    <div class="uber-buttons">
+         <button class="request-btn">Request now</button>
+         <button class="schedule-btn">Schedule for later</button>     
+    </div>
+</div> 
+<a href="ImageF.jpg"><p>Click this for Source Code</p></a>
+</body>
+</html>

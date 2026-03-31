@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 2px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-image: url('FinalBG.gif');
+            background-position: center;
+        }
+      
+
+        header,footer {
+            background-image:url('FinalBG.gif');
+            background-position: center;
+            color: #ffffff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        h2{
+            color: white;
+        }
+
+        nav {
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            background: rgba(0,0,0.5);
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(0,255,255,0.5);
+
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #15929b;
+        }
+
+        .container {
+            width: 80%;
+            margin:  auto;
+            padding: 20px;
+        }
+
+        .port img {
+           width: 150px;
+           height: 150px;
+           border: 4px solid rgb(87, 255, 255);
+           border-radius: 60%;
+           margin: 10px auto;
+           box-shadow: 0 0 30px rgb(139, 255, 255);
+           
+           
+        }
+
+        .icons img{
+            width: 70px;
+            height: 70px;
+            border-radius: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .port {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .port h1 {
+            font-size: 2.5rem;
+            color: white;            
+        
+        }
+
+        .port p {
+            color: white;
+            width: 90%;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            background: rgba(0,0,0.5);
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(0,255,255,0.5);
+        }
+
+        .projects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+
+        .card {
+            background-image: url('bgMid.gif');
+            background-position: center;
+            background-size: auto;
+            color: white;
+            padding: 15px;
+            flex: 1 1 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(235, 224, 224, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+      <header>
+        <h1>Macraine's Portfolio</h1>
+        <p> Student | Aspiring  Web Developer</p>
+      </header>
+    
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#funfacts">Fun Facts</a>
+        <a href="#contact">Contact</a>      
+    </nav>
+    
+
+       <div class="container">
+        <section class="port">
+            <img src="grad.jpg">
+            <h1> Hello, I'm Macraine! 👋</h1>
+            <p>I'm a first-year Information Technology student at Pampanga State Agricultural University who loves exploring different things. My goal is not only to learn but so seek and improve my knowledge while earning. I believe that IT is enjoyable and yet challenging, but I am eager to try and learn.</p>
+        </section>
+
+        
+            <h2>🙋 About Me</h2>
+            <div class="card">
+               <p>   There's one special thing about me, I think my loud voice. I am just a simple student who wants to explore and try new things. I am new in the field of coding but thanks to my eagerness to learn that's why I'm still striving. I hope in this portfolio I can show you some of my backgrounds and the activiites that I have done before. Enjoy! </p>
+            </div>           
+
+          
+            <h2> 📚 Education</h2>
+            <div class="card">
+               <p>College: Pampanga State Agricultural University (BSIT)</p>
+               <p>Senior High: Andres M. Luciano High School (TVL-ICT)</p>
+               <p>Juior High: Ayala High School</p>
+            </div>
+
+           <h2> 💡 Skills</h2>
+           <div class="card">
+                <P>🧠 Problem Solving</P>
+                <P>🤝 Teamwork</P>
+                <p>⌚Time Management</p>
+           </div>
+
+         
+           <h2> 🌟 Fun Facts</h2>
+            <div class="card">
+              <ul type="none">
+                <li>I can code for hours without noticing time 😄</li>
+                <li>I am excited when there's a new coding activity but crashing out when my code is having an error. </li>
+                <li>I would burst into tears everytime my code is not functioning well, but I still do jokes about it.</li>
+              </ul>
+            </div>
+     
+
+           <h2>🎮 Hobbies</h2>
+           <div class="card">
+            <ul type="none">
+                <li>🎧 Listening to music </li>
+                <li>🎮 Playing games  </li>
+                <li>✏ Writing poems</li>
+                <li>📷 Capturing sunset</li>
+                <li>🎤 Singing</li>
+            </ul>
+           </div>
+
+            <h2>🗂️ My Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>Midterm Lab Task 1.</h3>
+                    <p>Resume Writing using HTML</p>
+                  <nav>
+                    <a href="Resumee.html" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+
+                <div class="card">
+                    <h3>Midterm Lab Task 2.</h3>
+                    <p>Unordered and Ordered List</p>
+                  <nav>
+                    <a href="task2.html" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+
+                <div class="card">
+                    <h3>Midterm Lab Task 3.</h3>
+                    <p>Image Maps</p>
+                  <nav>
+                    <a href="map.html" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+
+                <div class="card">
+                    <h3>Midterm Lab Task 4.</h3>
+                    <p>HTML Forms</p>
+                  <nav>
+                    <a href="formTask.html" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+
+                <div class="card">
+                    <h3>Midterm Lab Task 5.</h3>
+                    <p>Applying CSS style on resume </p>
+                  <nav>
+                    <a href="resume.html" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+
+                <div class="card">
+                    <h3>Midterm Lab Task 6.</h3>
+                    <p>Using CSS display property</p>
+                  <nav>
+                    <a href="LabTask6-1.html" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+            </div>
+
+
+            <h2>🗂️ My Finals</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>Final Task 1.</h3>
+                    <p>TO BE ANNOUNCE</p>
+                  <nav>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+
+                <div class="card">
+                    <h3>Final Task 2.</h3>
+                    <p>TO BE ANNOUNCE</p>
+                  <nav>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+                
+                <div class="card">
+                    <h3>Final Task 3.</h3>
+                    <p>TO BE ANNOUNCE</p>
+                  <nav>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                  </nav>
+                </div>
+            </div>
+  
+            <h2>📫 Contact Me</h2>
+            <div class="icons">
+                <a href="https://ayerasraine@gmail.com" target="_blank">
+                    <img src="gmail.jpg" alt="Gmail">
+                </a>
+
+                <a href="https://github.com/ayerasmacraine" target="_blank">
+                    <img src="github.jpg" alt="github">
+                </a>
+
+                <a href="https://www.instagram.com/lilary.a" target="_blank">
+                    <img src="instagram.jpg" alt="instagram">
+                </a>
+
+                <a href="TeleQR.jpg" target="_blank">
+                    <img src="tele.jpg" alt="telegram">
+                </a>
+
+                <a href="https://www.facebook.com/share/1NigavJPXQ/" target="_blank">
+                    <img src="facebook.jpg" alt="facebook">
+                </a>             
+            </div>
+    </div>
+    <footer>
+        <p>© 2026 Macraine A. Ayeras | Portfolio </p>
+    </footer>
+
+</body>
+</html>
