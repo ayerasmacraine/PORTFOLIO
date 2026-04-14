@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout Demo </title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    
+    body{
+        background-color: black;
+    }
+
+    #fc1{
+        display: flex;
+        flex-direction: column;
+        min-height: 50em;
+    }
+
+    header{
+        flex: 1;
+        background-color: #161b22 ;
+        border: 1px solid gray;
+        color: white;
+    }
+
+    section{
+        flex: 2;
+        background-color:purple ;
+    }
+
+    
+
+    #fc2{
+        background-color: #161b22;
+        display: flex;
+        gap: 0.5em;
+        flex-direction: row;
+    }
+
+    #fc2 #Lnav{
+        flex: 2;
+        background-color: rgb(44, 44, 107);
+        border: 1px solid gray;
+    }
+
+    #fc2 #Rnav{
+        flex: 2;
+        background-color: rgb(206, 94, 113);
+        border: 1px solid gray;
+    }
+
+    footer{
+        flex: 1;
+        background-color: #161b22 ;
+        border: 1px solid gray;
+        color: white;
+    }
+
+    @media (max-width: 350px){
+        #fc2{
+            flex-direction: column-reverse;
+        }
+
+        #fc2 #Lnav,
+        #fc2 #Rnav{
+            background-color: yellow;
+        }
+        
+    }
+
+    @media (min-width: 800px){
+        #fc2{
+            flex-direction: column-reverse;
+        }
+
+        #fc2 #Lnav,
+        #fc2 #Rnav{
+            background-color: rgb(141, 90, 189);
+        }
+        
+    }
+
+     #g-container{
+       display: grid;
+       grid-template-columns: repeat (4, 1fr);
+       grid-template-rows: repeat (3, 300px);
+       grid-template-areas: "header header header header" "sidebar c1 c1 c2" "sidebar f1 f1 f1";
+       gap: 10px 10px;
+     }
+
+      #g-container> .style1{
+       background-color: aqua;
+     }
+
+      #g-item1 {
+        grid-column: span 4;
+     }
+
+       #g-item2 {
+        grid-row: span 3;
+     }
+
+       #g-item3 {
+        grid-column: span 2;
+    }
+  </style>      
+<body>
+    <div id="fc1">
+        <header>Header here</header>
+        <section id="fc2">
+            <div id="Lnav">Left Nav</div>
+            <div id="Rnav">Right Nav</div>
+        </section>
+        <footer>footer</footer>
+    </div>
+
+     <div id="g-container">
+        <div id="g-item1" class="style1">1</div>
+        <div id="g-item2" class="style1">2</div>
+        <div id="g-item3" class="style1">3</div>
+        <div id="g-item4" class="style1">4</div>
+        <div id="g-item5" class="style1">5</div>
+        <!--<div id="g-item6" class="style1">6</div>
+        <div id="g-item7" class="style1">7</div>
+        <div id="g-item8" class="style1">8</div>
+        <div id="g-item9" class="style1">9</div>
+        <div id="g-item10" class="style1">10</div>
+        <div id="g-item11" class="style1">11</div>
+        <div id="g-item12" class="style1">12</div>-->
+    </div> 
+</body>
+</html>
