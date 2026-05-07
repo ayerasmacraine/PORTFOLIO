@@ -1,0 +1,98 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.layout-box {
+  background: #e4dbdb;
+  padding: 15px;
+  border: 2px solid #dcdcdc;
+}
+
+.col-lg-6{
+  width: 100%;
+}
+
+.bar {
+  padding: 12px;
+  font-size: 13px;
+  color: white;
+  border-radius: 2px;
+}
+
+.green {
+  background: #2f855a;
+  border: 2px solid white;
+
+}
+
+.purple {
+  background: linear-gradient(90deg, #8a00c2, #c000ff);
+  border: 2px solid orange;
+}
+
+.red {
+  background: #f07167;
+  border: 2px solid white;
+}
+.col-lg-3{
+  width: 50%;
+}
+.col-lg-4, .col-lg-5{
+  width: 25%;
+
+}
+.teal {
+  background: #5f9ea0;
+  border: 2px solid white;
+}
+
+.col-lg-8{
+  width: 25%;
+}
+.col-lg-9{
+  width: 75%;
+}
+
+.blue {
+  background: #4c6ef5;
+  border: 2px solid white;
+}
+
+.dark {
+  background: #2f4f4f;
+  border: 2px solid white;
+}
+
+.card-section {
+  background: #dfe3eb;
+  padding: 40px 0;
+  padding-bottom: 25px;
+  
+}
+
+.title {
+  text-align: left;
+  color: #4c3fb1;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.custom-card {
+  background: #f8f9fb;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  
+}
+
+.custom-card h4 {
+  color: #4c3fb1;
+  font-weight: bold;
+}
+
+.custom-card p {
+  font-size: 13px;
+  color: #555;
+}
